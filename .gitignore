@@ -1,2 +1,14 @@
 venv/
 *.pem
+.terraform/
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Python
+venv/
+__pycache__/
+
+# Security
+*.pem
